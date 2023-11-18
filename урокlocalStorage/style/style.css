@@ -1,0 +1,227 @@
+* {
+   margin: 0;
+   /* это сброс всех отступов */
+   padding: 0;
+}
+
+body {
+   /* width: 100%;
+   height: 100%; */
+   color: var(--black-02, #2D2F30);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   /*подключеные шрифты */
+
+}
+
+header {
+   background-color:rgb(8, 202, 246);
+   width:  100%;
+}
+
+.wrapper {
+   /* wraper это доп обертка для добавления отступов и центровки */
+   width: 90%;
+   margin: auto;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Company{
+   color: var(--black-02, #2D2F30);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+padding-right: 1000px; 
+}
+
+a {
+   color: rgb(19, 8, 8);
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 25px;
+   text-decoration: none;
+}
+
+a:not(:last-child) {
+   margin-right: 20px;
+}
+/*удаляет отступ у выбранного элемента(ребенка) */
+
+
+
+/* второй блок О нас */
+
+
+.about {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: red;
+width: 100%;
+height: 100%;
+}
+
+.bear{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aquamarine;
+   width: 50%;
+   height: 100%x;
+}
+.about-img{
+   width: 100%;
+   height: 100%;
+}
+
+
+.table{
+   /* width: 50%;
+   height: 100%;
+   background-color: blue; */
+   width: 50%;
+   height: 1354px;
+   background-color: rgb(136, 0, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+
+.aboutinfo {
+box-sizing: border-box;
+width: 450px;
+height: 818px;
+background-color: green;
+} 
+
+
+.register-form h1 {
+   color: black;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+/* Ваш CSS код */
+
+/* Дополнительный стиль для изменения цвета фона */
+.red-background {
+   background-color:#151718;
+}
+
+.blue-background {
+   background-color: rgb(98, 0, 255);
+}
+
+.grey-background {
+   background-color:gray;
+}
+
+
+
+
+.register-form {
+   padding-top: 24px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.icon-container {
+margin-top: 15px;
+}
+
+.topik{
+   padding-top: 17px;
+   padding-bottom: 17px;
+   padding-left: 47px;
+   color:black;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+hr {
+   width: 80%;
+   border: 0;
+   border-top: 2px solid var(--black-02, rgb(184, 0, 230));
+   margin: auto;
+}
+
+h2 {
+   padding-top: 22px;
+   padding-bottom: 22px;
+   padding-left: 47px;
+   color: red;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input{
+   margin-left: 47px;
+   text-align: center;
+   width: 80%;
+   height: 50px;
+}
+
+/* .galka{
+   padding-top: 50px;
+   margin-left: 47px;
+   width: 24px;
+   height: 24px;
+} 
+
+.agree1{
+   color: black;
+   font-family: Inter;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}  */
+
+
+
+
+
+
+.button {
+   margin-left: 47px;
+   text-align: center;
+   width: 80%;
+   height: 50px;
+   background-color: #007bff; /* Синий цвет */
+   color: #fff; /* Белый цвет текста */
+   border: none; /* Убираем границу */
+   border-radius: 5px; /* Закругляем углы */
+   font-size: 16px;
+   cursor: pointer;
+}
+
+ /*  hover-эффекта (при наведении) */
+.button:hover {
+   background-color: #0056b3; /* Изменяем цвет фона при наведении */
+}
+
+
+
+
